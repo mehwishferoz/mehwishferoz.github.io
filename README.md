@@ -1,5 +1,7 @@
-# Network Nexus: Exploring Advanced Algorithms for Computer Networks
-## Introduction
+# Network Nexus
+* * *
+> Exploring Advanced Algorithms for Computer Networks
+
 Welcome to Network Nexus, a repository dedicated to the exploration and application of advanced algorithms in the realm of computer networks. This repository serves as a knowledge hub for showcasing problem-solving skills, system design prowess, and insights into contemporary challenges and solutions in computer networking.
 
 ## Objective
