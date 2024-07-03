@@ -1,37 +1,39 @@
-# Network Nexus
+# Computer Networks Portfolio
 * * *
 > Exploring Advanced Algorithms for Computer Networks
 
-Welcome to Network Nexus, a repository dedicated to the exploration and application of advanced algorithms in the realm of computer networks. This repository serves as a knowledge hub for showcasing problem-solving skills, system design prowess, and insights into contemporary challenges and solutions in computer networking.
+## Course Information
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Course Instructor:** Prakash Hegade
+
+## Personal Information
+- **Name:** Mehwish Nidgundi
+- **University:** KLE Technological University, Hubli
+
+## Contents
+- Introduction
+- Why Computer Networks?
+- Objective
+- Use Cases
+
+## Introduction
+Welcome to my portfolio, where I showcase my learnings from the Algorithmic Problem Solving (APS) classes. The domain I've chosen to focus on is Computer Networks. Through this portfolio, I aim to demonstrate my understanding of advanced algorithms and their applications in solving real-world problems within the realm of computer networking.
+
+## Why Computer Networks?
+The domain of Computer Networks captivates me due to its profound impact on virtually every aspect of modern life. The idea of connecting millions of devices, enabling instant communication, and supporting the vast flow of information is fascinating. Moreover, the continuous evolution of networking technologies presents a constant stream of new challenges and innovations. My curiosity about how these systems work, combined with a desire to improve and innovate within this field, drives my passion for Computer Networks.
 
 ## Objective
-The primary objective of this repository is to demonstrate proficiency in algorithmic problem-solving techniques and their application to address challenges in computer networks. This portfolio showcases my journey in understanding, analyzing, and contributing to the domain of computer networks.
+The main goal of this portfolio is to show my understanding and use of advanced algorithms to solve real-world networking problems.
 
-## Domain Description
-Computer networks form the backbone of modern communication and information exchange systems. From local area networks (LANs) to global-scale internet infrastructure, networks play a vital role in connecting devices, facilitating data transmission, and enabling various applications and services. As technology advances, the demand for efficient, secure, and scalable networks continues to grow. This repository focuses on leveraging advanced algorithms to tackle key issues in computer networks, such as routing optimization, congestion control, network security, and quality of service (QoS) management.
+## Use Cases
 
+### 1. Routing Algorithms
+### 2. Network Flow
+### 3. Packet Scheduling and Quality of Service (QoS)
+### 4. Routing Tables and Address Resolution
+### 5. Congestion Control
+### 6. Error Detection and Correction
+### 7. Network Security
+### 8. Multicast Routing
 
-## Why Network Nexus?
-
-### Goals:
-- **Creating a Knowledge Space:** Network Nexus serves as a platform to showcase my skills, expertise, and contributions in the field of computer networks.
-- **Demonstrating Problem-Solving Abilities:** Through detailed analyses and practical implementations, I demonstrate my proficiency in problem-solving, particularly in optimizing network performance, resource allocation, and protocol design.
-- **Presenting a Skillset Portfolio:** Network Nexus serves as a comprehensive portfolio highlighting my expertise in advanced algorithms, system design, and network optimization, tailored specifically for the domain of computer networks.
-
-## Repository Structure:
-
-### 1. Algorithms:
-- This directory contains implementations of various advanced algorithms relevant to computer networks, including routing algorithms, network flow optimization, and distributed algorithms.
-
-### 2. Case Studies:
-- Explore real-world case studies and analyses of network deployments, performance evaluations, and troubleshooting scenarios.
-
-### 3. Projects:
-- Dive into practical projects demonstrating the application of advanced algorithms in solving specific network problems or optimizing network performance.
-
-### 4. Resources:
-- Find useful resources, including research papers, textbooks, and tutorials, for further exploration and learning in the field of computer networks and algorithmic problem-solving.
-
-If you have suggestions for improvement or would like to discuss potential contributions, please feel free to reach out via email at [mehwish.codes@gmail.com](mailto:mehwish.codes@gmail.com).
-
-Let's navigate the exciting world of computer networks together! 🌐✨
