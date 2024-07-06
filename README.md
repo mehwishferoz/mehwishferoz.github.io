@@ -45,7 +45,7 @@ Efficiently optimizing flow paths while respecting network capacities requires a
 
 #### DSA USED:
 
-- **Ford-Fulkerson Algorithm**: Finds the maximum flow in a flow network. [1] [Code] (./codes/1.md)
+- **Ford-Fulkerson Algorithm**: Finds the maximum flow in a flow network. [1] [Code](./codes/1.md)
   
 - **Edmonds-Karp Algorithm**: Uses BFS for maximum flow calculations. [2] [Code](./codes/2.md)
   
