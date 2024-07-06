@@ -163,9 +163,11 @@ Developing secure algorithms that resist attacks and vulnerabilities. Balancing 
 
 #### DSA USED:
 
-- **Hash Functions**: Create digital signatures and verify message integrity. [24] [Code](./codes/24.md)
+- **Hash Functions**: Create digital signatures and verify message integrity. [21] [Code](./codes/21.md)
 
-- **Encryption Algorithms**: Secure data transmission and storage. [25], [26] [Code](./codes/1.md)
+- **RSA Algorithm**: Secure data transmission and storage. [22] [Code](./codes/22.md)
+
+- **AES Algorithm**: Secure data transmission and storage. [23] [Code](./codes/23.md)
 
 
 ### 8. 📡 **Multicast Routing**
@@ -180,13 +182,7 @@ Designing algorithms that efficiently manage multicast group communication. Bala
 
 #### DSA USED:
 
-- **Shortest Path Tree (SPT)**: Efficient routing tree for multicast groups. [27] [Code](./codes/27.md)
-
-- **Steiner Tree**: Optimal tree for connecting multiple nodes in multicast scenarios. [28] [Code](./codes/28.md)
-
-- **Distance Vector Multicast Routing Protocol (DVMRP)**: Routing protocol for multicast groups. [29] [Code](./codes/29.md)
-
-- **Protocol Independent Multicast (PIM)**: Family of multicast routing protocols. [30] [Code](./codes/30.md)
+- **Prim's Algorithm**: Computes minimum spanning tree (MST) i.e. efficient routing tree for multicast groups. [24] [Code](./codes/24.md)
 
 
 ### 9. 🚀 **Flow Control in Transport and Data Link Layer**
@@ -201,9 +197,13 @@ Designing efficient flow control mechanisms that adapt to varying network condit
 
 #### DSA USED:
 
-- **Sliding Window Algorithm**: Regulates data flow and ensures reliable transmission. [31] [Code](./codes/31.md)
+- **Sliding Window Algorithm**: Regulates data flow and ensures reliable transmission. [25] [Code](./codes/25.md)
 
-- **Stop-and-Wait Protocol**: Ensures data integrity by acknowledging each packet. [32] [Code](./codes/32.md)
+- **Stop-and-Wait Algorithm**: Ensures data integrity by acknowledging each packet. [26] [Code](./codes/26.md)
+
+- **Go-Back-N Algorithm**: Ensures data integrity by acknowledging each packet. [26] [Code](./codes/27.md)
+
+- **Selective Repeat Algorithm**: Ensures data integrity by acknowledging each packet. [26] [Code](./codes/28.md)
 
 
 ### 10. 🛡️ **Intrusion Detection Systems (IDS)**
@@ -218,9 +218,9 @@ Developing algorithms that efficiently detect known attack patterns and anomalou
 
 #### DSA USED:
 
-- **Pattern Matching Algorithms**: Detect known attack signatures efficiently. [33], [34] [Code](./codes/1.md)
+- **Aho-Corasick Algorithm**: Detect known attack signatures efficiently. [27] [Code](./codes/29.md)
 
-- **Anomaly Detection**: Identifies unusual patterns indicating potential threats. [35], [36] [Code](./codes/1.md)
+- **Knuth-Morris-Pratt (KMP) Algorithm**: Detect known attack signatures efficiently. [28] [Code](./codes/30.md)
 
 
 ### 11. 🌍 **Content Delivery Networks (CDN)**
@@ -235,9 +235,9 @@ Designing caching strategies that maximize hit rates and minimize latency. Balan
 
 #### DSA USED:
 
-- **Caching Algorithms**: Store frequently accessed content for quick retrieval. [37] [Code](./codes/37.md)
+- **LRU Caching Algorithm**: Store frequently accessed content for quick retrieval. [29] [Code](./codes/31.md)
 
-- **Load Balancing**: Distributes incoming traffic across multiple servers. [38] [Code](./codes/38.md)
+- **LFU Caching Algorithm**: Store frequently accessed content for quick retrieval. [29] [Code](./codes/32.md)
 
 
 ### 12. 🗜️ **Data Compression**
@@ -252,16 +252,16 @@ Developing compression algorithms that achieve high compression ratios without l
 
 #### DSA USED:
 
-- **Huffman Coding**: Lossless data compression with variable-length codes. [39] [Code](./codes/39.md)
+- **Huffman Coding**: Lossless data compression with variable-length codes. [30] [Code](./codes/33.md)
 
-- **Lempel-Ziv-Welch (LZW)**: Dictionary-based compression for text and images. [40] [Code](./codes/40.md)
+- **Lempel-Ziv-Welch (LZW)**: Dictionary-based compression for text and images. [31] [Code](./codes/34.md)
 
-- **Burrows-Wheeler Transform (BWT)**: Data transformation technique for block sorting compression. [41] [Code](./codes/41.md)
+- **Burrows-Wheeler Transform (BWT)**: Data transformation technique for block sorting compression. [32] [Code](./codes/35.md)
 
 
 ## References
 
-[1]
+[1] L. R. Ford and D. R. Fulkerson, "Maximal flow through a network," *Canadian Journal of Mathematics*, vol. 8, pp. 399-404, 1956.
 
 [2] J. Edmonds and R. M. Karp, "Theoretical improvements in algorithmic efficiency for network flow problems," *Journal of the ACM (JACM)*, vol. 19, no. 2, pp. 248-264, Apr. 1972.
 
@@ -301,38 +301,26 @@ Developing compression algorithms that achieve high compression ratios without l
 
 [20] I. S. Reed and G. Solomon, "Polynomial codes over certain finite fields," *Journal of the Society for Industrial and Applied Mathematics*, vol. 8, no. 2, pp. 300-304, Jun. 1960.
 
-[24] R. Rivest, "RFC 1321: The MD5 Message-Digest Algorithm," Apr. 1992.
+[21] R. Rivest, "RFC 1321: The MD5 Message-Digest Algorithm," Apr. 1992.
 
-[25] R. L. Rivest, A. Shamir, and L. Adleman, "A method for obtaining digital signatures and public-key cryptosystems," *Communications of the ACM*, vol. 21, no. 2, pp. 120-126, Feb. 1978.
+[22] R. L. Rivest, A. Shamir, and L. Adleman, "A method for obtaining digital signatures and public-key cryptosystems," *Communications of the ACM*, vol. 21, no. 2, pp. 120-126, Feb. 1978.
 
-[26] J. Daemen and V. Rijmen, "The design of Rijndael: AES - the advanced encryption standard," 2002.
+[23] J. Daemen and V. Rijmen, "The design of Rijndael: AES - the advanced encryption standard," 2002.
 
-[27] S. E. Deering and D. R. Cheriton, "Multicast routing in internetworks and extended LANs," *ACM Transactions on Computer Systems (TOCS)*, vol. 8, no. 2, pp. 85-110, May 1990.
+[24] S. E. Deering and D. R. Cheriton, "Multicast routing in internetworks and extended LANs," *ACM Transactions on Computer Systems (TOCS)*, vol. 8, no. 2, pp. 85-110, May 1990.
 
-[28] L. T. Kou, G. Markowsky, and L. Berman, "A fast algorithm for steiner trees," *SIAM Journal on Applied Mathematics*, vol. 40, no. 3, pp. 676-682, Jun. 1981.
+[25] A. S. Tanenbaum and D. J. Wetherall, *Computer Networks*.
 
-[29] D. Waitzman, C. Partridge, and S. Deering, "Distance vector multicast routing protocol," *RFC 1075*, Nov. 1988.
+[26] W. Stallings, *Data and Computer Communications*.
 
-[30] D. Estrin et al., "Protocol independent multicast-sparse mode (PIM-SM): Protocol specification," *RFC 2362*, Jun. 1998.
+[27] A. V. Aho and M. J. Corasick, "Efficient string matching: An aid to bibliographic search," *Communications of the ACM*, vol. 18, no. 6, pp. 333-340, Jun. 1975.
 
-[31] A. S. Tanenbaum and D. J. Wetherall, *Computer Networks*.
+[28] D. E. Knuth, J. H. Morris, and V. R. Pratt, "Fast pattern matching in strings," *SIAM Journal on Computing*, vol. 6, no. 2, pp. 323-350, Jun. 1977.
 
-[32] W. Stallings, *Data and Computer Communications*.
+[29] D. Karger et al., "Web caching and replication," in *Proceedings of the twenty-ninth annual ACM symposium on Theory of computing*, pp. 654-663, 1997.
 
-[33] A. V. Aho and M. J. Corasick, "Efficient string matching: An aid to bibliographic search," *Communications of the ACM*, vol. 18, no. 6, pp. 333-340, Jun. 1975.
+[30] D. A. Huffman, "A method for the construction of minimum-redundancy codes," *Proceedings of the IRE*, vol. 40, no. 9, pp. 1098-1101, Sep. 1952.
 
-[34] D. E. Knuth, J. H. Morris, and V. R. Pratt, "Fast pattern matching in strings," *SIAM Journal on Computing*, vol. 6, no. 2, pp. 323-350, Jun. 1977.
+[31] J. Ziv and A. Lempel, "A universal algorithm for sequential data compression," *IEEE Transactions on information theory*, vol. 23, no. 3, pp. 337-343, May 1977.
 
-[35] D. E. Denning, "An intrusion detection model," *IEEE Transactions on software engineering*, no. 2, pp. 222-232, Apr. 1987.
-
-[36] A. Lazarevic, V. Kumar, and J. Srivastava, "Intrusion detection: A survey," in *Managing Cyber Threats*, pp. 19-78, 2005.
-
-[37] M. Rabinovich and O. Spatscheck, *Web caching and replication*.
-
-[38] D. Karger et al., "Web caching and replication," in *Proceedings of the twenty-ninth annual ACM symposium on Theory of computing*, pp. 654-663, 1997.
-
-[39] D. A. Huffman, "A method for the construction of minimum-redundancy codes," *Proceedings of the IRE*, vol. 40, no. 9, pp. 1098-1101, Sep. 1952.
-
-[40] J. Ziv and A. Lempel, "A universal algorithm for sequential data compression," *IEEE Transactions on information theory*, vol. 23, no. 3, pp. 337-343, May 1977.
-
-[41] M. Burrows and D. J. Wheeler, "A block-sorting lossless data compression algorithm," *Technical report, Digital Equipment Corporation*, 1994.
+[32] M. Burrows and D. J. Wheeler, "A block-sorting lossless data compression algorithm," *Technical report, Digital Equipment Corporation*, 1994.
