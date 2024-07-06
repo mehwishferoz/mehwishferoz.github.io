@@ -127,13 +127,9 @@ Designing algorithms that dynamically adjust data rates to prevent congestion wh
 
 #### DSA USED:
 
-- **Sliding Window Protocols**: Regulates data flow and ensures reliable transmission. [17] [Code](./codes/17.md)
+- **Sliding Window Algorithm**: Regulates data flow and ensures reliable transmission. [16] [Code](./codes/16.md)
 
-- **Leaky Bucket Algorithm**: Controls data rate to prevent bursts. [18] [Code](./codes/18.md)
-
-- **Additive Increase/Multiplicative Decrease (AIMD)**: TCP congestion control algorithm. [19] [Code](./codes/19.md)
-
-- **Random Early Detection (RED)**: Detects and manages congestion proactively. [20] [Code](./codes/20.md)
+- **Leaky Bucket Algorithm**: Controls data rate to prevent bursts. [17] [Code](./codes/17.md)
 
 
 ### 6. 🛠️ **Error Detection and Correction**
@@ -148,11 +144,11 @@ Developing robust error detection and correction algorithms that efficiently ide
 
 #### DSA USED:
 
-- **Cyclic Redundancy Check (CRC)**: Detects errors in transmitted data blocks. [21] [Code](./codes/21.md)
+- **Cyclic Redundancy Check (CRC)**: Detects errors in transmitted data blocks. [18] [Code](./codes/18.md)
 
-- **Hamming Code**: Corrects single-bit errors in data transmission. [22] [Code](./codes/22.md)
+- **Hamming Code**: Corrects single-bit errors in data transmission. [19] [Code](./codes/19.md)
 
-- **Reed-Solomon Code**: Error correction for burst errors in data streams. [23] [Code](./codes/23.md)
+- **Reed-Solomon Code**: Error correction for burst errors in data streams. [20] [Code](./codes/20.md)
 
 
 ### 7. 🔒 **Network Security**
@@ -265,6 +261,8 @@ Developing compression algorithms that achieve high compression ratios without l
 
 ## References
 
+[1]
+
 [2] J. Edmonds and R. M. Karp, "Theoretical improvements in algorithmic efficiency for network flow problems," *Journal of the ACM (JACM)*, vol. 19, no. 2, pp. 248-264, Apr. 1972.
 
 [3] E. A. Dinic, "Algorithm for solution of a problem of maximum flow in a network," *Soviet Mathematics Doklady*, vol. 11, no. 5, pp. 1277-1280, 1970.
@@ -293,19 +291,15 @@ Developing compression algorithms that achieve high compression ratios without l
 
 [15] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*.
 
-[17] W. Stallings, *Data and Computer Communications*.
+[16] W. Stallings, *Data and Computer Communications*.
 
-[18] A. S. Tanenbaum and D. J. Wetherall, *Computer Networks*.
+[17] A. S. Tanenbaum and D. J. Wetherall, *Computer Networks*.
 
-[19] V. Jacobson, "Congestion avoidance and control," *ACM SIGCOMM Computer Communication Review*, vol. 18, no. 4, pp. 314-329, Aug. 1988.
+[18] W. W. Peterson and D. T. Brown, "Cyclic codes for error detection," *Proceedings of the IRE*, vol. 49, no. 1, pp. 228-235, Jan. 1961.
 
-[20] S. Floyd and V. Jacobson, "Random early detection gateways for congestion avoidance," *IEEE/ACM Transactions on Networking*, vol. 1, no. 4, pp. 397-413, Aug. 1993.
+[19] R. W. Hamming, "Error detecting and error correcting codes," *Bell System Technical Journal*, vol. 29, no. 2, pp. 147-160, Apr. 1950.
 
-[21] W. W. Peterson and D. T. Brown, "Cyclic codes for error detection," *Proceedings of the IRE*, vol. 49, no. 1, pp. 228-235, Jan. 1961.
-
-[22] R. W. Hamming, "Error detecting and error correcting codes," *Bell System Technical Journal*, vol. 29, no. 2, pp. 147-160, Apr. 1950.
-
-[23] I. S. Reed and G. Solomon, "Polynomial codes over certain finite fields," *Journal of the Society for Industrial and Applied Mathematics*, vol. 8, no. 2, pp. 300-304, Jun. 1960.
+[20] I. S. Reed and G. Solomon, "Polynomial codes over certain finite fields," *Journal of the Society for Industrial and Applied Mathematics*, vol. 8, no. 2, pp. 300-304, Jun. 1960.
 
 [24] R. Rivest, "RFC 1321: The MD5 Message-Digest Algorithm," Apr. 1992.
 
