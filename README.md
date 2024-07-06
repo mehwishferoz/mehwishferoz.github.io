@@ -45,15 +45,15 @@ Efficiently optimizing flow paths while respecting network capacities requires a
 
 #### DSA USED:
 
-- **Ford-Fulkerson Algorithm**: Finds the maximum flow in a flow network. [Code](./codes/1.md)
+- **Ford-Fulkerson Algorithm**: Finds the maximum flow in a flow network. [1] [Code] (./codes/1.md)
   
-- **Edmonds-Karp Algorithm**: Uses BFS for maximum flow calculations. [1] [Code](./codes/2.md)
+- **Edmonds-Karp Algorithm**: Uses BFS for maximum flow calculations. [2] [Code](./codes/2.md)
   
-- **Dinic's Algorithm**: Combines BFS and DFS for efficient flow computations. [2] [Code](./codes/3.md)
+- **Dinic's Algorithm**: Combines BFS and DFS for efficient flow computations. [3] [Code](./codes/3.md)
   
-- **Push-Relabel Algorithm**: Maintains a preflow to optimize flow in large graphs. [3] [Code](./codes/4.md)
+- **Push-Relabel Algorithm**: Maintains a preflow to optimize flow in large graphs. [4] [Code](./codes/4.md)
   
-- **Capacity Scaling Algorithm**: Scales capacities dynamically for efficient flow management. [4] [Code](./codes/5.md)
+- **Capacity Scaling Algorithm**: Scales capacities dynamically for efficient flow management. [5] [Code](./codes/5.md)
 
 
 ### 2. 🚦 **Routing Algorithms**
@@ -68,13 +68,11 @@ Developing algorithms that swiftly determine optimal routes while adapting to ne
 
 #### DSA USED:
 
-- **Dijkstra's Algorithm**: Finds the shortest path using a priority queue. [5] [Code](./codes/5.md)
+- **Dijkstra's Algorithm**: Finds the shortest path using a priority queue. [6] [Code](./codes/6.md)
 
-- **Bellman-Ford Algorithm**: Handles negative weights and dynamic networks. [6] [Code](./codes/6.md)
+- **Bellman-Ford Algorithm**: Handles negative weights and dynamic networks. [7] [Code](./codes/7.md)
 
-- **A* Algorithm**: Uses heuristics to enhance Dijkstra's efficiency. [7] [Code](./codes/7.md)
-
-- **OSPF (Open Shortest Path First)**: Adapts to changing network states for optimal routing. [8] [Code](./codes/8.md)
+- **A* Algorithm**: Uses heuristics to enhance Dijkstra's efficiency. [8] [Code](./codes/8.md)
 
 
 ### 3. ⏱️ **Packet Scheduling and Quality of Service (QoS)**
@@ -97,8 +95,6 @@ Designing scheduling algorithms that maintain fairness and prioritize critical d
 
 - **Deficit Round Robin (DRR)**: Fair queuing with deficit-based scheduling. [12] [Code](./codes/12.md)
 
-- **Leaky Bucket and Token Bucket**: Controls data flow rates to prevent congestion. [13] [Code](./codes/13.md)
-
 
 ### 4. 📜 **Routing Tables and Address Resolution**
 
@@ -112,11 +108,11 @@ Developing efficient data structures and algorithms for quick IP address resolut
 
 #### DSA USED:
 
-- **Tries**: Efficient for IP lookup and prefix matching. [14] [Code](./codes/14.md)
+- **Tries**: Efficient for IP lookup and prefix matching. [13] [Code](./codes/13.md)
 
-- **Hash Tables**: Fast address resolution in ARP. [15] [Code](./codes/15.md)
+- **Hash Tables**: Fast address resolution in ARP. [14] [Code](./codes/14.md)
 
-- **Binary Search Trees (BST)**: Hierarchical routing table management. [16] [Code](./codes/16.md)
+- **Binary Search Trees (BST)**: Hierarchical routing table management. [15] [Code](./codes/15.md)
 
 
 ### 5. 🚧 **Congestion Control**
@@ -269,21 +265,19 @@ Developing compression algorithms that achieve high compression ratios without l
 
 ## References
 
-[1] J. Edmonds and R. M. Karp, "Theoretical improvements in algorithmic efficiency for network flow problems," *Journal of the ACM (JACM)*, vol. 19, no. 2, pp. 248-264, Apr. 1972.
+[2] J. Edmonds and R. M. Karp, "Theoretical improvements in algorithmic efficiency for network flow problems," *Journal of the ACM (JACM)*, vol. 19, no. 2, pp. 248-264, Apr. 1972.
 
-[2] E. A. Dinic, "Algorithm for solution of a problem of maximum flow in a network," *Soviet Mathematics Doklady*, vol. 11, no. 5, pp. 1277-1280, 1970.
+[3] E. A. Dinic, "Algorithm for solution of a problem of maximum flow in a network," *Soviet Mathematics Doklady*, vol. 11, no. 5, pp. 1277-1280, 1970.
 
-[3] J. Cheriyan and S. N. Maheshwari, "A note on two problems in connexion with graphs," *SIAM Journal on Computing*, vol. 18, no. 6, pp. 1057-1086, 1989.
+[4] J. Cheriyan and S. N. Maheshwari, "A note on two problems in connexion with graphs," *SIAM Journal on Computing*, vol. 18, no. 6, pp. 1057-1086, 1989.
 
-[4] A. V. Goldberg and R. E. Tarjan, "A new approach to the maximum-flow problem," *Journal of the ACM (JACM)*, vol. 35, no. 4, pp. 921-940, Oct. 1988.
+[5] A. V. Goldberg and R. E. Tarjan, "A new approach to the maximum-flow problem," *Journal of the ACM (JACM)*, vol. 35, no. 4, pp. 921-940, Oct. 1988.
 
-[5] E. W. Dijkstra, "A note on two problems in connexion with graphs," *Numerische Mathematik*, vol. 1, no. 1, pp. 269-271, Dec. 1959.
+[6] E. W. Dijkstra, "A note on two problems in connexion with graphs," *Numerische Mathematik*, vol. 1, no. 1, pp. 269-271, Dec. 1959.
 
-[6] R. Bellman, "On a routing problem," *Quarterly of Applied Mathematics*, vol. 16, no. 1, pp. 87-90, Mar. 1958.
+[7] R. Bellman, "On a routing problem," *Quarterly of Applied Mathematics*, vol. 16, no. 1, pp. 87-90, Mar. 1958.
 
-[7] P. E. Hart, N. J. Nilsson, and B. Raphael, "A formal basis for the heuristic determination of minimum cost paths," *IEEE Transactions on Systems Science and Cybernetics*, vol. 4, no. 2, pp. 100-107, Jul. 1968.
-
-[8] J. Moy, "OSPF Version 2," *RFC 2328*, Apr. 1998.
+[8] P. E. Hart, N. J. Nilsson, and B. Raphael, "A formal basis for the heuristic determination of minimum cost paths," *IEEE Transactions on Systems Science and Cybernetics*, vol. 4, no. 2, pp. 100-107, Jul. 1968.
 
 [9] J. F. Kurose and K. W. Ross, *Computer Networking: A Top-Down Approach*.
 
@@ -293,13 +287,11 @@ Developing compression algorithms that achieve high compression ratios without l
 
 [12] M. Shreedhar and G. Varghese, "Efficient fair queuing using deficit round-robin," *IEEE/ACM Transactions on Networking*, vol. 4, no. 3, pp. 375-385, Jun. 1996.
 
-[13] A. S. Tanenbaum and D. J. Wetherall, *Computer Networks*.
+[13] D. R. Morrison, "PATRICIA - practical algorithm to retrieve information coded in alphanumeric," *Journal of the ACM (JACM)*, vol. 15, no. 4, pp. 514-534, Oct. 1968.
 
-[14] D. R. Morrison, "PATRICIA - practical algorithm to retrieve information coded in alphanumeric," *Journal of the ACM (JACM)*, vol. 15, no. 4, pp. 514-534, Oct. 1968.
+[14] D. R. Cheriton and W. Zwaenepoel, "An efficient implementation of the smalltalk-80 system," *Proceedings of the ninth ACM symposium on Operating systems principles*, pp. 129-140, 1983.
 
-[15] D. R. Cheriton and W. Zwaenepoel, "An efficient implementation of the smalltalk-80 system," *Proceedings of the ninth ACM symposium on Operating systems principles*, pp. 129-140, 1983.
-
-[16] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*.
+[15] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*.
 
 [17] W. Stallings, *Data and Computer Communications*.
 
