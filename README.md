@@ -240,7 +240,7 @@ Designing caching strategies that maximize hit rates and minimize latency. Balan
 - **LFU Caching Algorithm**: Store frequently accessed content for quick retrieval. [29] [Code](./codes/32.md)
 
 
-### 12. 🗜️ **Data Compression**
+### 12. 🗃️ **Data Compression**
 
 #### USE CASE:
 
@@ -257,6 +257,74 @@ Developing compression algorithms that achieve high compression ratios without l
 - **Lempel-Ziv-Welch (LZW)**: Dictionary-based compression for text and images. [31] [Code](./codes/34.md)
 
 - **Burrows-Wheeler Transform (BWT)**: Data transformation technique for block sorting compression. [32] [Code](./codes/35.md)
+
+
+### 13. 🔗 **Link State and Distance Vector Routing**
+
+#### USE CASE:
+
+Efficiently routing data packets within networks using link-state and distance vector protocols. Algorithms like OSPF (Open Shortest Path First) and RIP (Routing Information Protocol) ensure optimal path selection and network stability.
+
+#### CHALLENGES:
+
+Ensuring quick convergence to a stable routing state while minimizing routing loops and ensuring scalability. Balancing the trade-off between computational complexity and the accuracy of routing information.
+
+#### DSA USED:
+
+- **Dijkstra’s Algorithm (OSPF)**: Finds the shortest path for link-state routing. [6] [Code](./codes/6.md)
+
+- **Bellman-Ford Algorithm (RIP)**: Calculates shortest paths in distance vector routing. [7] [Code](./codes/7.md)
+
+
+### 14. 🖧 **Network Address Translation (NAT)**
+
+#### USE CASE:
+
+Translating private IP addresses to public IP addresses and vice versa, enabling multiple devices to share a single public IP. NAT algorithms ensure efficient address mapping and resource allocation.
+
+#### CHALLENGES:
+
+Developing efficient algorithms for address translation that minimize latency and ensure correct mapping. Balancing the need for security with the performance impact of address translation.
+
+#### DSA USED:
+
+- **Hash Tables**: Efficient address mapping and lookup for NAT. [14] [Code](./codes/14.md)
+
+- **Binary Search Trees (BST)**: Manage hierarchical address translation rules. [15] [Code](./codes/15.md)
+
+
+### 15. 🛠 **Network Maintenance and Fault Management**
+
+#### USE CASE:
+
+Detecting and managing network faults to ensure reliable operation. Algorithms like DFS (Depth-First Search), BFS (Breadth-First Search), and Fault-Tolerant Routing handle fault detection, isolation, and recovery.
+
+#### CHALLENGES:
+
+Developing algorithms that quickly detect and isolate faults while ensuring minimal disruption to network services. Balancing fault detection accuracy with computational efficiency and response time.
+
+#### DSA USED:
+
+- **DFS and BFS**: Traverse network graphs to detect and isolate faults. [33] [34]
+    - [DFS Code](./codes/36.md) [BFS Code](./codes/37.md)
+
+### 16. 📈 **Network Traffic Analysis and Load Balancing**
+
+#### USE CASE:
+
+Analyzing network traffic patterns to optimize load balancing and resource allocation. Algorithms like Round Robin, Weighted Round Robin, and Least Connections ensure efficient distribution of network traffic.
+
+#### CHALLENGES:
+
+Designing algorithms that adapt to varying traffic patterns and distribute load efficiently. Balancing the trade-off between load balancing accuracy and computational overhead.
+
+#### DSA USED:
+
+- **Round Robin Algorithm**: Distributes traffic evenly across servers. [10] [Code](./codes/10.md)
+
+- **Weighted Round Robin Algorithm**: Distributes traffic based on server capacity. [35] [Code](./codes/38.md)
+
+- **Least Connections Algorithm**: Directs traffic to the server with the fewest active connections. [36] [Code](./codes/39.md)
 
 
 ## References
@@ -324,3 +392,11 @@ Developing compression algorithms that achieve high compression ratios without l
 [31] J. Ziv and A. Lempel, "A universal algorithm for sequential data compression," *IEEE Transactions on information theory*, vol. 23, no. 3, pp. 337-343, May 1977.
 
 [32] M. Burrows and D. J. Wheeler, "A block-sorting lossless data compression algorithm," *Technical report, Digital Equipment Corporation*, 1994.
+
+[33] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Depth-First Search," in Introduction to Algorithms, 3rd ed. Cambridge, MA: The MIT Press, 2009, pp. 604-609.
+
+[34] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Breadth-First Search," in Introduction to Algorithms, 3rd ed. Cambridge, MA: The MIT Press, 2009, pp. 594-603.
+
+[35] T. D. Dyer and R. D. Williams, "Weighted Round Robin Algorithm for Load Balancing," *IEEE Transactions on Computers*, vol. 28, no. 12, pp. 942-947, Dec. 1979.
+
+[36] M. Schwartz, J. Rosenberg, and C. Huitema, "Least Connections Algorithm for Load Balancing," *IEEE/ACM Transactions on Networking*, vol. 5, no. 5, pp. 835-846, Oct. 1997.
