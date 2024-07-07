@@ -24,8 +24,6 @@ Welcome to my portfolio, where I showcase my learnings from the Algorithmic Prob
 
 ## Why Computer Networks?
 
-<img align="right" src="https://www.lifewire.com/thmb/TXVRTtkHvRpTjnRObQ3xm2VlsD0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/WirelessNetwork-5994852003f4020011db5333.jpg" width="180">
-
 The domain of Computer Networks captivates me due to its profound impact on virtually every aspect of modern life. The idea of connecting millions of devices, enabling instant communication, and supporting the vast flow of information is fascinating. Moreover, the continuous evolution of networking technologies presents a constant stream of new challenges and innovations. My curiosity about how these systems work, combined with a desire to improve and innovate within this field, drives my passion for Computer Networks.
 
 ## Objective
@@ -39,9 +37,7 @@ The main goal of this portfolio is to show my understanding and use of advanced 
 
 Network flow management involves efficiently directing data through networks, ensuring optimal performance. Algorithms like Ford-Fulkerson, Edmonds-Karp, Dinic's, Push-Relabel, and Capacity Scaling are used to calculate maximum flow, optimize paths, and handle varying network demands.
 
-#### CHALLENGES:
-
-Efficiently optimizing flow paths while respecting network capacities requires algorithms that can handle dynamic changes in flow requirements. Ensuring fair distribution and prioritization of data flows based on application needs is crucial. Implementing these algorithms involves balancing computational efficiency with accuracy in flow calculations.
+<img src="images/Max_flow_ford_fulk.gif" alt="Ford Fulkerson Algorithm" width="500">
 
 #### DSA USED:
 
@@ -62,9 +58,7 @@ Efficiently optimizing flow paths while respecting network capacities requires a
 
 Routing algorithms find the shortest paths in networks, crucial for efficient data transmission. Algorithms like Dijkstra's, Bellman-Ford, A*, and OSPF optimize route calculations based on network topology and traffic patterns.
 
-#### CHALLENGES:
-
-Developing algorithms that swiftly determine optimal routes while adapting to network changes and avoiding inefficiencies. Ensuring accurate route selection under varying conditions requires sophisticated algorithms capable of handling large datasets and diverse network topologies.
+<img src="images/routing_algo.gif" alt="Routing Algorithm" width="500">
 
 #### DSA USED:
 
@@ -81,9 +75,7 @@ Developing algorithms that swiftly determine optimal routes while adapting to ne
 
 Packet scheduling ensures timely delivery and prioritization of data packets in networks. Algorithms like Priority Queues, Round Robin, Weighted Fair Queuing (WFQ), Deficit Round Robin (DRR), and Leaky Bucket manage traffic efficiently.
 
-#### CHALLENGES:
-
-Designing scheduling algorithms that maintain fairness and prioritize critical data streams. Adapting to fluctuating network conditions while ensuring consistent quality of service. Balancing computational overhead with real-time responsiveness in packet scheduling.
+<img src="images/qos.gif" alt="Packet Scheduling" width="500">
 
 #### DSA USED:
 
@@ -102,9 +94,7 @@ Designing scheduling algorithms that maintain fairness and prioritize critical d
 
 Efficient routing table management and address resolution are essential for network connectivity. Data structures like Tries, Hash Tables, and Binary Search Trees (BST) optimize IP lookup and address mapping.
 
-#### CHALLENGES:
-
-Developing efficient data structures and algorithms for quick IP address resolution and routing table management. Balancing memory usage and lookup speed in routing operations. Implementing scalable and robust address resolution mechanisms across large networks.
+<img src="images/arp.gif" alt="ARP Process" width="500">
 
 #### DSA USED:
 
@@ -121,9 +111,7 @@ Developing efficient data structures and algorithms for quick IP address resolut
 
 Congestion control manages data traffic to prevent network overload and ensure stable performance. Algorithms like Sliding Window Protocols, Leaky Bucket, AIMD, and RED dynamically adjust data rates to maintain optimal network conditions.
 
-#### CHALLENGES:
-
-Designing algorithms that dynamically adjust data rates to prevent congestion while maximizing throughput. Balancing proactive congestion avoidance with reactive congestion control strategies. Implementing robust congestion detection and response mechanisms in diverse network environments.
+<img src="images/sliding_window.gif" alt="Sliding window" width="500">
 
 #### DSA USED:
 
@@ -138,9 +126,7 @@ Designing algorithms that dynamically adjust data rates to prevent congestion wh
 
 Ensuring data integrity during transmission is critical for reliable communication. Algorithms like CRC, Hamming Code, and Reed-Solomon detect and correct errors, minimizing data loss.
 
-#### CHALLENGES:
-
-Developing robust error detection and correction algorithms that efficiently identify and rectify transmission errors. Balancing overhead costs with error detection accuracy. Adapting error correction techniques to diverse data types and transmission conditions.
+<img src="images/CRC8.gif" alt="CRC" width="500">
 
 #### DSA USED:
 
@@ -157,9 +143,7 @@ Developing robust error detection and correction algorithms that efficiently ide
 
 Protecting data and resources from unauthorized access and attacks is crucial in network security. Algorithms like Hash Functions and Encryption Algorithms (e.g., RSA, AES) ensure data confidentiality, integrity, and availability.
 
-#### CHALLENGES:
-
-Developing secure algorithms that resist attacks and vulnerabilities. Balancing encryption strength with performance overhead. Adapting security measures to evolving threat landscapes and regulatory requirements.
+<img src="images/hash.gif" alt="Hash function" width="500">
 
 #### DSA USED:
 
@@ -176,9 +160,7 @@ Developing secure algorithms that resist attacks and vulnerabilities. Balancing 
 
 Efficiently routing data to multiple recipients is essential for multimedia and collaborative applications. Algorithms like Shortest Path Tree (SPT), Steiner Tree, DVMRP, and PIM optimize data distribution in multicast environments.
 
-#### CHALLENGES:
-
-Designing algorithms that efficiently manage multicast group communication. Balancing scalability with bandwidth efficiency in large-scale multicast networks. Implementing robust routing protocols that adapt to network dynamics and varying group sizes.
+<img src="images/mcastgrp.gif" alt="Sliding window" width="500">
 
 #### DSA USED:
 
@@ -191,9 +173,7 @@ Designing algorithms that efficiently manage multicast group communication. Bala
 
 Ensuring reliable data transmission and optimal performance in transport and data link layers is critical for network efficiency. Algorithms like Sliding Window Algorithm and Stop-and-Wait Protocol manage data flow and ensure error-free communication.
 
-#### CHALLENGES:
-
-Designing efficient flow control mechanisms that adapt to varying network conditions and traffic patterns. Balancing data transmission speed with error detection and correction capabilities. Implementing robust protocols that prevent congestion and ensure data integrity.
+<img src="images/selective-repeat.jpg" alt="Sliding window" width="500">
 
 #### DSA USED:
 
@@ -212,9 +192,7 @@ Designing efficient flow control mechanisms that adapt to varying network condit
 
 Detecting and preventing malicious activities and security breaches is crucial for network security. Algorithms like Pattern Matching and Anomaly Detection identify potential threats and unauthorized access attempts.
 
-#### CHALLENGES:
-
-Developing algorithms that efficiently detect known attack patterns and anomalous behaviors. Balancing detection accuracy with computational efficiency and real-time responsiveness. Adapting detection mechanisms to evolving attack vectors and network environments.
+<img src="images/intrusion.gif" alt="IDS" width="500">
 
 #### DSA USED:
 
@@ -229,9 +207,7 @@ Developing algorithms that efficiently detect known attack patterns and anomalou
 
 Efficiently delivering web content to users worldwide requires robust content delivery networks. Algorithms like Caching Algorithms and Load Balancing ensure fast and reliable content distribution across geographically dispersed servers.
 
-#### CHALLENGES:
-
-Designing caching strategies that maximize hit rates and minimize latency. Balancing content replication and distribution costs with performance gains. Implementing load balancing algorithms that optimize server resource utilization and enhance content delivery speed.
+<img src="images/cdn.gif" alt="CDN" width="500">
 
 #### DSA USED:
 
@@ -246,9 +222,7 @@ Designing caching strategies that maximize hit rates and minimize latency. Balan
 
 Reducing data size for efficient storage and transmission is essential in data compression. Algorithms like Huffman Coding, Lempel-Ziv-Welch (LZW), and Burrows-Wheeler Transform (BWT) minimize data size while preserving data integrity.
 
-#### CHALLENGES:
-
-Developing compression algorithms that achieve high compression ratios without loss of data. Balancing compression speed with decompression efficiency. Adapting compression techniques to diverse data types and application scenarios.
+<img src="images/compression_machine_dribbble.gif" alt="compression_machine_dribbble" width="500">
 
 #### DSA USED:
 
@@ -265,9 +239,7 @@ Developing compression algorithms that achieve high compression ratios without l
 
 Efficiently routing data packets within networks using link-state and distance vector protocols. Algorithms like OSPF (Open Shortest Path First) and RIP (Routing Information Protocol) ensure optimal path selection and network stability.
 
-#### CHALLENGES:
-
-Ensuring quick convergence to a stable routing state while minimizing routing loops and ensuring scalability. Balancing the trade-off between computational complexity and the accuracy of routing information.
+<img src="images/Bellman–Ford_algorithm_example.gif" alt="Bellman–Ford_algorithm_example" width="500">
 
 #### DSA USED:
 
@@ -282,9 +254,7 @@ Ensuring quick convergence to a stable routing state while minimizing routing lo
 
 Translating private IP addresses to public IP addresses and vice versa, enabling multiple devices to share a single public IP. NAT algorithms ensure efficient address mapping and resource allocation.
 
-#### CHALLENGES:
-
-Developing efficient algorithms for address translation that minimize latency and ensure correct mapping. Balancing the need for security with the performance impact of address translation.
+<img src="images/bst.gif" alt="bst" width="500">
 
 #### DSA USED:
 
@@ -299,9 +269,7 @@ Developing efficient algorithms for address translation that minimize latency an
 
 Detecting and managing network faults to ensure reliable operation. Algorithms like DFS (Depth-First Search), BFS (Breadth-First Search), and Fault-Tolerant Routing handle fault detection, isolation, and recovery.
 
-#### CHALLENGES:
-
-Developing algorithms that quickly detect and isolate faults while ensuring minimal disruption to network services. Balancing fault detection accuracy with computational efficiency and response time.
+<img src="images/dfs.gif" alt="dfs" width="500">
 
 #### DSA USED:
 
@@ -314,9 +282,7 @@ Developing algorithms that quickly detect and isolate faults while ensuring mini
 
 Analyzing network traffic patterns to optimize load balancing and resource allocation. Algorithms like Round Robin, Weighted Round Robin, and Least Connections ensure efficient distribution of network traffic.
 
-#### CHALLENGES:
-
-Designing algorithms that adapt to varying traffic patterns and distribute load efficiently. Balancing the trade-off between load balancing accuracy and computational overhead.
+<img src="images/round-robin-gif.gif" alt="round-robin-gif" width="500">
 
 #### DSA USED:
 
