@@ -329,14 +329,6 @@ Analyzing network traffic patterns to optimize load balancing and resource alloc
 
 ---
 
-## Use Case and Efficiency Overview
-
-| SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
-|---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
-| 1       | Computation of Shortest Paths in Google Maps                        | Dijkstra's Algorithm                                 | O((V + E) log V), O(V)               |
-
----
-
 ## Reflections
 
 This portfolio shows my journey of learning and using advanced algorithms in computer networks. It demonstrates how these algorithms help improve data flow, routing, security, and efficiency. Each example illustrates my learning process, problem-solving skills, and practical application in networking. This experience has enhanced my understanding and inspired me to keep innovating in this field.
