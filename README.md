@@ -4,37 +4,50 @@
 
 > 🚀 Exploring Advanced Algorithms for Computer Networks
 
-## Course Information
+## Course Details
 
 - **Course Name:** Algorithmic Problem Solving
 - **Course Code:** 23ECSE309
 - **Course Instructor:** Prakash Hegade
 
-## Personal Information
+---
+
+## Personal Details
 
 - **Name:** Mehwish Nidgundi
 - **USN:** 01FE21BCI057
 - **University:** KLE Technological University, Hubli
 
-## Table of Contents
+---
+
+## Index
 
 - [📖 Introduction](#introduction)
-- [🌟 Why Computer Networks?](#why-computer-networks)
+- [❔ Why Computer Networks?](#why-computer-networks)
 - [🎯 Objective](#objective)
-- [💼 Use Cases](#use-cases)
-- [📜 References](#references)
+- [🔍 Use Cases](#use-cases)
+- [📚 References](#references)
+- [🔍 Reflections](#reflections)
+
+---
 
 ## Introduction
 
-Welcome to my portfolio, where I showcase my learnings from the Algorithmic Problem Solving (APS) classes. The domain I've chosen to focus on is Computer Networks. Through this portfolio, I aim to demonstrate my understanding of advanced algorithms and their applications in solving real-world problems within the realm of computer networking.
+Welcome to my portfolio, where I showcase my learnings from the Algorithmic Problem Solving classes. The domain I've chosen to focus on is Computer Networks. Through this portfolio, I aim to demonstrate my understanding of advanced algorithms and their applications in solving real-world problems within the domain of computer networking.
+
+---
 
 ## Why Computer Networks?
 
-The domain of Computer Networks captivates me due to its profound impact on virtually every aspect of modern life. The idea of connecting millions of devices, enabling instant communication, and supporting the vast flow of information is fascinating. Moreover, the continuous evolution of networking technologies presents a constant stream of new challenges and innovations. My curiosity about how these systems work, combined with a desire to improve and innovate within this field, drives my passion for Computer Networks.
+I am fascinated by Computer Networks because they affect almost every part of modern life. Connecting millions of devices, allowing instant communication, and managing huge amounts of data is really interesting to me. Plus, networking technologies are always changing, offering new challenges and opportunities to innovate. My curiosity about how these systems work, along with a desire to make improvements in this field, drives my passion for Computer Networks.
+
+---
 
 ## Objective
 
 The main goal of this portfolio is to show my understanding and use of advanced algorithms to solve real-world networking problems.
+
+---
 
 ## Use Cases
 
@@ -312,6 +325,14 @@ Analyzing network traffic patterns to optimize load balancing and resource alloc
 - **Weighted Round Robin Algorithm**: Distributes traffic based on server capacity. [35] [Code](./codes/38.md)
 
 - **Least Connections Algorithm**: Directs traffic to the server with the fewest active connections. [36] [Code](./codes/39.md)
+
+---
+
+## Reflections
+
+This portfolio shows my journey of learning and using advanced algorithms in computer networks. It demonstrates how these algorithms help improve data flow, routing, security, and efficiency. Each example illustrates my learning process, problem-solving skills, and practical application in networking. This experience has enhanced my understanding and inspired me to keep innovating in this field.
+
+---
 
 ## References
 
