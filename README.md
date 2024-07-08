@@ -27,7 +27,6 @@
 - [🎯 Objective](#objective)
 - [📃 Use Cases](#use-cases)
 - [📚 References](#references)
-- [📑 Use case and efficiency overview](#use-case-and-efficiency-overview)
 - [🪞 Reflections](#reflections)
 
 ---
