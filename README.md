@@ -26,9 +26,8 @@
 - [❔ Why Computer Networks?](#why-computer-networks)
 - [🎯 Objective](#objective)
 - [📃 Use Cases](#use-cases)
-- [📚 References](#references)
-- [📑 Use case and efficiency overview](#use-case-and-efficiency-overview)
 - [🪞 Reflections](#reflections)
+- [📚 References](#references)
 
 ---
 
@@ -326,14 +325,6 @@ Analyzing network traffic patterns to optimize load balancing and resource alloc
 - **Weighted Round Robin Algorithm**: Distributes traffic based on server capacity. [35] [Code](./codes/38.md)
 
 - **Least Connections Algorithm**: Directs traffic to the server with the fewest active connections. [36] [Code](./codes/39.md)
-
----
-
-## Use Case and Efficiency Overview
-
-| SI. No. | Business Use Case                                                   | Data Structure and Algorithm Used                    | Efficiency (TC, SC)                  |
-|---------|---------------------------------------------------------------------|------------------------------------------------------|-------------------------------------|
-| 1       | Computation of Shortest Paths in Google Maps                        | Dijkstra's Algorithm                                 | O((V + E) log V), O(V)               |
 
 ---
 
